@@ -1,4 +1,4 @@
-ENV["SINATRA_ENV"] ||= "development"
+rake ENV["SINATRA_ENV"] ||= "development"
 
 require_relative './config/environment'
 
