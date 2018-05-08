@@ -14,8 +14,8 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     i = 0
     until i <= @num do
-      i += 1
       "#{params[:phrase]}"
+            i += 1
     end
   end
 end
