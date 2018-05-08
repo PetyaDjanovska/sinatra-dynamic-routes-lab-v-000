@@ -15,5 +15,6 @@ class App < Sinatra::Base
       @num.times do
         "#{params[:phrase]}"
       end
+      binding.pry
   end
 end
